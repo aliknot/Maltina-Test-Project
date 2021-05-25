@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.post{
+  width: 400px;
+  height: 400px;
+  padding: 32px 31px 20px;
+  border: solid 1px #d6d6d6;
+  text-align: center;
+}
+
+.post p{
+  color: #5f6c84;
+  font-size: 16px;
+  /* margin: 0; */
+}
+
+.post img{
+  width: 271px;
+  height: 271px;
+}
