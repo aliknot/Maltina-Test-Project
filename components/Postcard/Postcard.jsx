@@ -3,11 +3,17 @@ import Link from 'next/link';
 
 const PostCard = (props) => {
   return (
-    <div className={postcardStyles.post}>
+    <div className={postcardStyles.postcard}>
       <Link href={`/posts/${props.id}`}>
-        <img src="/images/bitmap.png" alt="laptop icon" />
+        <a>
+          <img className={postcardStyles.icon} src="/images/bitmap.png" alt="example image" />
+        </a>
       </Link>
-      <p>{ props.title }</p>
+      <Link href={`/posts/${props.id}`}>
+        <a>
+          <p className={postcardStyles.title}>{ props.title }</p>
+        </a>
+      </Link>
     </div>
   )
 }
