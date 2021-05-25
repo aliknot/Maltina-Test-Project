@@ -2,7 +2,6 @@ import postcardStyles from '../../styles/Postcard.module.css';
 import PostCard from '../../components/Postcard/Postcard';
 
 export default function posts({ data }) {
-	console.log(data);
 	return (
 		<main className='main'>
 			{data && (
