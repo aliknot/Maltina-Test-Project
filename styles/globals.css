@@ -18,3 +18,10 @@ a {
 .main{
   padding: 60px 100px;
 }
+
+.line{
+  width: 100%;
+  height: 1px;
+  border: 1px solid #d6d6d6;
+  margin: 44.1px 0;
+}
