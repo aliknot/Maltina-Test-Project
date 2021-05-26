@@ -2,10 +2,9 @@
   direction: rtl;
   display: flex;
   align-items: center;
-  width: 1347px;
-  height: 52px;
+  max-width: 1347px;
+  /* height: 52px; */
   margin: 0 0 15.3px auto;
-  margin-left: auto;
   padding: 14px 11px;
   border-radius: 3px;
   color: #a37730;
@@ -24,4 +23,18 @@
   font-weight: 500;
   text-align: right;
   margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .notify{
+    margin: 0 auto 15.3px auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .notify{
+    border-right: none;
+    border-left: none;
+  }
 }

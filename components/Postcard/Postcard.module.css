@@ -7,7 +7,6 @@
 
 .postcard{
   width: 400px;
-  height: 400px;
   padding: 32px 31px 20px;
   border: solid 1px #d6d6d6;
   text-align: center;
@@ -21,4 +20,28 @@
 .icon{
   width: 271px;
   height: 271px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .postcard{
+    width: 320px;
+  }
+
+  .container{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .postcard{
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .postcard{
+    border-right: none;
+    border-left: none;
+  }
 }
