@@ -15,7 +15,7 @@ export default function Home({ data }) {
       {data &&
         <div className={postcardStyles.container}>
           {data?.map((post) => (
-            <PostCard title={post.title} id={post.id} />
+            <PostCard title={post.title} id={post.id} key={post.id} />
           ))}
         </div>
       }

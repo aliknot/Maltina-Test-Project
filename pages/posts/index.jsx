@@ -1,4 +1,4 @@
-import postcardStyles from '../../styles/Postcard.module.css';
+import postcardStyles from '../../components/Postcard/Postcard.module.css';
 import PostCard from '../../components/Postcard/Postcard';
 
 export default function posts({ data }) {
@@ -7,7 +7,7 @@ export default function posts({ data }) {
 			{data && (
 				<div className={postcardStyles.container}>
 					{data?.map((post) => (
-						<PostCard title={post.title} id={post.id} />
+						<PostCard title={post.title} id={post.id} key={post.id} />
 					))}
 				</div>
 			)}

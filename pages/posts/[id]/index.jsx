@@ -12,7 +12,7 @@ const Post = ({ post, comments }) => {
           <div className={postStyles.comments}>
           {comments.length > 0 &&
             comments?.map((comment) => (
-              <Comment name={comment.name} body={comment.body} email={comment.email} />
+              <Comment name={comment.name} body={comment.body} email={comment.email} key={comment.id} />
           ))}
           </div>
         }
