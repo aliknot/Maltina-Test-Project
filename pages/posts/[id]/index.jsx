@@ -5,7 +5,7 @@ const Post = ({ post, comments }) => {
   return (
     <main className='main'>
       <div className={ postStyles.post }>
-        <img src="/images/bitmap.jpg" alt="example image" />
+        <img src="/images/bitmap.jpg" className={postStyles.icon} alt="example image" />
         <h1 className={postStyles.title}>{post.title}</h1>
         <div className='line'></div>
         {comments &&
