@@ -1,5 +1,5 @@
 import homeStyles from '../styles/Home.module.css';
-import postcardStyles from '../styles/Postcard.module.css';
+import postcardStyles from '../components/Postcard/Postcard.module.css';
 import PostCard from '../components/Postcard/Postcard';
 
 

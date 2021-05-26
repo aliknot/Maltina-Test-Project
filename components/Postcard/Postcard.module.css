@@ -13,13 +13,12 @@
   text-align: center;
 }
 
-.postcard .title{
+.title{
   color: #5f6c84;
   font-size: 16px;
-  /* margin: 0; */
 }
 
-.postcard .icon{
+.icon{
   width: 271px;
   height: 271px;
 }

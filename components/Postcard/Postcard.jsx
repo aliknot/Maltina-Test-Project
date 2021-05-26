@@ -1,4 +1,4 @@
-import postcardStyles from '../../styles/Postcard.module.css';
+import postcardStyles from './Postcard.module.css';
 import Link from 'next/link';
 
 const PostCard = (props) => {
