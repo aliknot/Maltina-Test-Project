@@ -1,0 +1,35 @@
+.comment{
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  margin: 31.7px 0;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  margin-right: 46px;
+}
+
+.contents{
+  text-align: left;
+}
+
+.name, .email{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name{
+  color: #4a4a4a;
+  
+}
+
+.email{
+  color: #0068c5;
+}
+
+.body{
+  font-size: 16px;
+  color: #5f6c84;
+}
